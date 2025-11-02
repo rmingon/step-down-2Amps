@@ -29,15 +29,29 @@
 
 - `hardware.kicad_sch`, `hardware.kicad_pcb`: KiCad 8 project files for schematic and board layout.
 - `pcb.png`, `3d.png`, `schematic.png`: Quick references for the layout, render, and top-level schematic.
+- `production/`: Fabrication outputs generated with KiCad's fabrication toolkit.
+  - `hardware.zip`: Gerbers, drill files, and KiCad fabrication reports ready for board house upload.
+  - `bom.csv`, `designators.csv`, `positions.csv`: Bill of materials, grouped designators, and pick-and-place data.
+  - `netlist.ipc`: IPC-356 netlist for electrical test.
 
 ## Assembly Notes
 
 - All passives are 0603 packages.
 - `EN` is permanently tied high through the resistor divider, so the regulator starts when `VCC` is present.
 - Populate at least one of the 22 uF output capacitors (`C11`, `C12`) for stability; both footprints can be stuffed for additional bulk capacitance.
+- Refer to `bom.csv` for LCSC part numbers when ordering components.
 
 ## Using the Board
 
 1. Solder the three-pin header or wire leads to `J1`.
 2. Apply your input source to `VCC`/`GND` and confirm the 3.3 V output on `+3V3`.
-3. For different output voltages, adjust the feedback divider (`R14` high-side, `R13` low-side) per the `TPS562200` datasheet (Vout = 0.765 V \* (1 + R14 / R13)).
+3. For different output voltages, adjust the feedback divider (`R14` high-side, `R13` low-side) per the `TPS562200` datasheet (Vout = 0.765 V * (1 + R14 / R13)).
+
+## Revision Control
+
+- Current hardware revision: stored as `hardware.kicad_pcb` (no separate revision notes yet).
+- Track design tweaks by tagging commits; update this README when new revisions change the electrical interface.
+
+## License
+
+- Released under the CERN Open Hardware Licence Version 2 - Permissive (`CERN-OHL-P v2`). See `LICENSE` for the full terms and obligations when using the design or producing hardware from it.

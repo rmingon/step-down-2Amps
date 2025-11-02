@@ -1,0 +1,81 @@
+CERN Open Hardware Licence Version 2 - Permissive
+
+Preamble
+
+CERN has developed this licence to promote collaboration among hardware designers and to provide a legal tool which supports the freedom to use, study, modify, share and distribute hardware designs and products based on those designs. Any licensee is welcome to use this licence provided they adhere to its terms and conditions.
+
+The CERN-OHL-P is a permissive licence. Hardware produced using the licensed material may be sold or otherwise distributed, whether or not it is itself licensed under the CERN-OHL-P.
+
+1 Definitions
+
+In this Licence, the following terms have the following meanings:
+
+1.1 'Licence' means this CERN Open Hardware Licence version 2 - Permissive.
+
+1.2 'Compatible Licence' means any of the Creative Commons licences version 4.0 (including the CC0 1.0 Universal dedication), the Solderpad Hardware License version 2.1, the Apache License version 2.0, or any licence which permits the licensee to Sublicense under those licences or this Licence.
+
+1.3 'Source' means information such as design materials or digital representations, which can be applied to Make or test a Product or to interpret its behaviour. It may include code, schematics, bill of materials, layouts, fabrication data, models, and explanatory material.
+
+1.4 'Product' means any device or physical object, whether in finished or intermediate form, arising from the use, application or adaptation of the Source.
+
+1.5 'Generated Source' means Source that is automatically produced by a tool whose inputs include other Source, but which is not itself editable in the same manner as the input Source.
+
+1.6 'Documentation Location' means a location where the Licensor has placed Source, and which he reasonably believes will remain easily accessible for at least three years for Licensees.
+
+1.7 'Licensee' or 'You' means any person exercising rights under this Licence.
+
+1.8 'Licensor' means any person who distributes Source licensed under this Licence.
+
+1.9 'Modify' means to create Derived Source by editing existing Source, or by importing and aggregating Source with other material, or by any other technique that results in material based on Source.
+
+1.10 'Sublicense' means to grant rights under the Source to a third party.
+
+1.11 'Make' means to create or configure a Product from Source, Received Source or Generated Source.
+
+1.12 'Change Notice' means a notice that describes alterations made to the Source, stating the nature, purpose and date of the change.
+
+1.13 'Outbound License' means any licence terms under which the Licensee Sublicenses the Source.
+
+1.14 'Contractor' means any person engaged by You to Make Products or to Modify the Source on Your behalf.
+
+2 Applicability
+
+2.1 This Licence governs copying, modification and distribution of the Source, and Making of Products.
+
+2.2 You may Sublicense the Source as permitted under this Licence, and any Sublicense is an Outbound License.
+
+3 Copying, Modifying and Conveying the Source
+
+3.1 You may copy and Convey the Source, in whole or in part, provided that You attach the terms of this Licence to it.
+
+3.2 You may Modify the Source, in which case the Modified Source is Received Source and must be licensed under the terms of this Licence.
+
+3.3 When You Convey Source (whether Received or Modified) You must, where practicable, provide a Documentation Location. If You have Modified the Source, You must include or attach a Change Notice that includes a summary of the modifications, and (if relevant) a statement of the scope of Sublicensing that You grant.
+
+3.4 You may convert Source to a Compatible Licence. Licensees who Receive Source under a Compatible Licence may Sublicense it under this Licence, provided that they make it clear to any recipients that the Source is Sublicensed under both this Licence and the Compatible Licence. If the Source was Received under a Compatible Licence, You must also comply with the requirements of that Compatible Licence.
+
+4 Making Products
+
+4.1 You may Make Products, and You may sublicense others to Make Products, provided that You require them to fulfil the same obligations that apply to You when Making Products.
+
+4.2 You must ensure that anyone who is engaged by You to Make Products is informed of the Documentation Location. If You or Your Contractors Make a Product and You are not otherwise required to provide Source under section 3, You must make available to any recipient of the Product the Source from which the Product is Made, under terms at least as favourable to the recipient as those in this Licence, either (i) by providing the Source directly, or (ii) by providing a Documentation Location where the Source is available, and taking reasonable steps to ensure that the Source remains available at that location for as long as You Make Products or for three years, whichever is longer.
+
+4.3 You must not impose any further restrictions on the exercise of the rights granted under this Licence.
+
+5 Patents
+
+5.1 The Licensor grants You a perpetual, worldwide, non-exclusive, no-charge, royalty-free, irrevocable (except as stated in this section) patent licence to Make, have Made, use, offer to sell, sell, import, and otherwise transfer the Source and Products, where such licence applies only to patents licensable by the Licensor that are necessarily infringed by the Source or by Making or using Products.
+
+5.2 If You institute patent litigation (including a cross-claim or counterclaim in a lawsuit) against any entity alleging that the Source or a Product constitutes direct or contributory patent infringement, then any licences granted to You under this Licence shall terminate as of the date such litigation is filed.
+
+6 Good Practice
+
+6.1 You are encouraged to (a) submit modifications of the Source back to the Licensor when requested; (b) provide modifications in a form enabling a subsequent Recipient to Modify the Source; and (c) distribute Products with documentation that includes instructions on how to obtain Source, and with notices stating that Source is available under this Licence.
+
+7 Warranties and Liability
+
+7.1 DISCLAIMER OF WARRANTY -- The Source and any Products are provided under this Licence on an "as is" basis and without warranties of any kind concerning the Source, whether express, implied, statutory or other. This includes, without limitation, warranties of title, merchantability, fitness for a particular purpose, non-infringement, the absence of latent or other defects, accuracy, or the presence or absence of errors. Likewise, no warranty is given that the Source or Products will meet Your requirements, will be error-free, or that their operation will be uninterrupted, nor any warranty that any Product will be compliant with applicable law or regulation.
+
+7.2 EXCLUSION AND LIMITATION OF LIABILITY -- To the extent permitted by applicable law, in no event will the Licensor be liable to You on any legal theory (including, without limitation, negligence) or otherwise for any direct, indirect, special, incidental, consequential, punitive or exemplary damages arising from or relating to this Licence, the Source or any Products, including, without limitation, lost profits, loss of goodwill or work stoppage, even if the Licensor has been advised of the possibility of such damages. Where such exclusion of liability is not permitted by applicable law, it shall be to the minimum extent permitted by applicable law.
+
+7.3 The disclaimer of warranty and limitation of liability provided above shall be interpreted in a manner that, to the extent possible, most closely approximates an absolute disclaimer and waiver of all liability.
